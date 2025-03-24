@@ -122,9 +122,18 @@ footer {
     transition: transform 0.3s;
 }
 
-.image-container img:hover {
+.image-container1 img {
+    max-width: 100%;
+    height: 95%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.image-container img:hover, .image-container1 img:hover {
     transform: scale(1.05);
 }
+
 
 .aboutp, .service-section, .indexp, .contactp {
     text-align: center;
@@ -169,5 +178,33 @@ footer {
 
     .image-container {
         margin-bottom: 1.5rem;
+    }
+}
+
+/* Video Container Styles */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.video-container video {
+    width: 100%;
+    max-width: 400px; /* Adjust the max-width as needed */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.video-container video:hover {
+    transform: scale(1.02);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .video-container video {
+        max-width: 100%;
+        height: auto;
     }
 }
