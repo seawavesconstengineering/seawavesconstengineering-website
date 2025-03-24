@@ -27,3 +27,23 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    const video = document.getElementById('promoVideo');
+
+    // Create an Intersection Observer
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                video.play().catch(error => {
+                    console.error("Autoplay was prevented:", error);
+                });
+            } else {
+                video.pause();
+            }
+        });
+    }, { threshold: 0.5 }); // Adjust the threshold as needed
+
+    // Start observing the video element
+    observer.observe(video);
+});
