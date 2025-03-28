@@ -65,7 +65,7 @@ article {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
 }
-artical.home {
+article.home {
     background-image: url('gambar/contact.jpg');
 }
 
