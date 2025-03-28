@@ -10,7 +10,9 @@ body {
     color: #333;
     line-height: 1.6;
 }
-
+body.home {
+    background-image: url('gambar/contact.jpg');
+}
 header {
     background-color: #80deea;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
