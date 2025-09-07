@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about Seawaves Construction & Engineering, a leading company in civil engineering and electrical works.">
+    <title>About - Seawaves Construction & Engineering</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Favicon links -->
+    <link rel="icon" href="gambar/logo2.jpeg" type="image/x-icon">
+    <link rel="shortcut icon" href="gambar/logo2.jpeg" type="image/x-icon">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="gambar/logo1.jpeg" alt="Seawaves Logo">
+            
+        </div> 
+            <b>SEAWAVES CONSTRUCTION & ENGINEERING</b>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+     <article class="about-section">  
+        <h3 class="abouth3">ONE STOP SOLUTION SERVICES</h3>  
+        <div class="video-container">
+             <video id="promoVideo" controls muted loop width="600">
+                <source src="videos/services video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+                </video>
+         </div>
+    </article>
+
+    <style>
+    
+
+  .about-section {    
+    padding: 40px;                 /* add spacing so text/video doesn’t touch edges */
+    text-align: center;            /* center align text & video */
+    color: white;                  /* make text readable */
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.6); /* better readability */
+    border-radius: 12px;           /* optional: rounded corners */
+  }
+
+  .video-container video {
+    max-width: 25%; /* responsive */
+    border: 4px solid white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  }
+    </style>
+
+    
+   
+    <article>
+            <div class="service-section">
+                <h3 class="abouth4">SERVICES</h3>
+                 <style>    
+                .abouth4 {    
+                 padding: 40px;                 /* add spacing so text/video doesn’t touch edges */
+                 text-align: center;            /* center align text & video */
+                 color: rgb(19, 10, 11);                  /* make text readable */
+                 text-shadow: 1px 1px 4px rgba(15, 15, 15, 0.6); /* better readability */
+                 border-radius: 12px;           /* optional: rounded corners */
+                 text-decoration: underline;
+                 font-size: 50px;
+                  }
+                 </style>
+                <h3 class="abouth3">Electrical Engineering Services</h3>
+                                
+                <div class="image-row">
+                    <div class="image-container">
+                        <img src="gambar/SABIDI.jpg" alt="Electrical Engineering">
+                        <img src="gambar/1lrt3.jpeg" alt="Electrical Engineering">
+                        <br>
+                        <br> New wiring and rewiring for industrial and residence
+                    </div>
+                    <div class="image-container">
+                        <img src="gambar/electrical.jpeg" alt="Electrical Engineering">
+                        <img src="gambar/electrical3.jpeg" alt="Electrical Engineering">
+                        <br>
+                        <br> Installation  for electrical accessories and appliances
+                    </div>
+                    <div class="image-container">
+                        <img src="gambar/electric.jpeg" alt="Electrical Engineering">
+                        <img src="gambar/electrical1.jpeg" alt="Electrical Engineering">
+                        <br>
+                        <br> Inspection for electrical wiring condition
+                    </div>
+                </div>
+            </div>
+    </article>
+    <article>
+
+            <div class="service-section">
+                <h3 class="abouth3">Air Conditioning Services</h3>
+                <div class="image-row">
+                    <div class="image-container">
+                        <img src="gambar/aircond11.jpeg" alt="Air Conditioning Services">
+                        <br>
+                        <br> Installation of aircond for industrial and residence
+                    </div>
+                    <div class="image-container">
+                        <img src="gambar/aircond3.jpeg" alt="Air Conditioning Services">
+                        <br>
+                        <br> Scheduled chemical service
+                    </div>
+                    <div class="image-container">
+                        <img src="gambar/aircond1.jpeg" alt="Air Conditioning Services">
+                        <br>
+                        <br> Troubleshoot aircond issues
+                    </div>
+                </div>
+            </div>
+    </article>
+    <article>
+
+            <div class="service-section">
+                <h3 class="abouth3">Access Door, CCTV and Autogate</h3>
+                <div class="image-row">
+                    <div class="image-container">
+                        <img src="gambar/access.jpeg" alt="Access Door, CCTV and Autogate Services">
+                        <br>
+                        <br> Installation and troubleshoot of Access Door
+                    </div>
+                    <div class="image-container">
+                        <img src="gambar/cctv2.jpeg" alt="Access Door, CCTV and Autogate Services">
+                        <br>
+                        <br> Installation and troubleshoot of CCTV
+                    </div>
+                    <div class="image-container">
+                        <img src="gambar/autogate1.jpeg" alt="Access Door, CCTV and Autogate Services">
+                        <br>
+                        <br> Installation and troubleshoot of Autogate
+                    </div>
+                </div>
+            </div>
+    </article>
+
+    <article>
+            <div class="service-section">
+                <h3 class="abouth3">Smart Home System</h3>
+                <div class="image-row">
+                    <div class="image-container">
+                        <img src="gambar/smart2.jpeg" alt="Smart Home Services">
+                        <br>
+                        <br> Installation of autogate smart system
+                    </div>
+                    <div class="image-container">
+                        <img src="gambar/smart1.jpeg" alt="Smart Home Services">
+                        <br>
+                        <br> Installation of lighting smart system
+                    </div>
+                    <div class="image-container">
+                        <img src="gambar/smart11.jpeg" alt="Smart Home Services">
+                        <img src="gambar/smart22.jpeg" alt="Smart Home Services">
+                        <br>
+                        <br> Installation of electrical appliances smart system
+                    </div>
+                </div>
+            </div>
+    </article>
+
+    <article>
+            <div class="service-section">
+                <h3 class="abouth3">Civil Engineering and Construction</h3>                       
+                <div class="image-row">
+                    <p class="aboutp">
+                        <div class="image-container">                       
+                        <img src="gambar/const2.jpeg" alt="Civil Engineering and Construction">
+                        <br>
+                        <br> Renovation
+                     </div>
+                        <div class="image-container">
+                        <img src="gambar/const4.jpeg" alt="Civil Engineering and Construction">
+                        <br>
+                        <br> Steel work (Partition, Roof & Awning)
+                    </div>
+                        <div class="image-container">
+                        <img src="gambar/const1.jpeg" alt="Civil Engineering and Construction">
+                        <br>
+                        <br> New building 
+                    </div>
+                </div>
+            </div>
+    </article>
+            
+    <article>       
+            <div class="service-section">
+                <h3 class="abouth3">Supplier of Tools and Equipment</h3>
+                <div class="image-row">
+                    <div class="image-container">
+                        <img src="gambar/supply1.jpeg" alt="Supplier of Tools and Equipment">
+                        <br>
+                        <br> Airconditioner parts and consumable items
+                    </div>
+                    <div class="image-container">
+                        <img src="gambar/supp1.jpeg" alt="Supplier of Tools and Equipment">
+                        <br>
+                        <br> Electrical cabels and accessories
+                    </div>
+                    <div class="image-container">
+                        <img src="gambar/supply2.jpeg" alt="Supplier of Tools and Equipment">
+                        <br>
+                        <br> Gasses drums (Oxygen, Methane, CO2)
+          </p>
+    </article>
+</body>
